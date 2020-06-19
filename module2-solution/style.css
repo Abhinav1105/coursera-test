@@ -1,4 +1,16 @@
-#p1 {
-  background-color: red;
+h1 {
+  text-align: center;
+}
 
+div {
+  /*background-color: #A52A2A;*/
+  border: 2px solid black;
+  width: 90%;
+  
+  margin-right: auto;
+  margin-left: 1.5%;
+  margin-bottom: 1.5%;
+  font-family: Helvetica;
+  color: rgb(91, 40, 185);
+  padding: 10px;
 }
