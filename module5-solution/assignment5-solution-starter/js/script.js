@@ -189,7 +189,7 @@ function buildCategoriesViewHtml(categories,
                                  categoriesTitleHtml,
                                  categoryHtml) {
 
-  var finalHtml = categoriesTitleHtml;
+  var finalHtml = JSON.parse(categoriesTitleHtml);
   finalHtml += "<section class='row'>";
 
   // Loop over categories
